@@ -92,6 +92,7 @@ app.post('/upload', (req, res) => {
   // 把文件从一个目录拷贝到别一个目录
   function copyFile(src, dest) {
     let promise = new Promise((resolve, reject) => {
+      // console.log('========拷贝', src, dest)
       fs.rename(src, dest, err => {
         if (err) {
           reject(err)
