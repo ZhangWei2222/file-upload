@@ -1,0 +1,13 @@
+.idea
+*.iml
+.DS_Store
+dist
+build
+node_modules
+node_modules_stable
+nodeServer/uploads/
+uploads/
+out
+gen
+/.history
+*.mp4
